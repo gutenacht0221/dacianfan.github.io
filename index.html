@@ -4,21 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://cdn.discordapp.com/attachments/1009254575020191875/1024929655872049193/unknown11.png">
-    <!-- ===== Iconscout CSS ===== -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Gute Nacht</title>
+    <link rel="icon" href="/img/unknown11.png">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="main_style.css">
-         
-    <title>gutenacht.dev</title>
+    <!-- Discord Embed -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Gute Nacht">
+    <meta property="og:title" content="gutenacht.dev">
+    <meta name="theme-color" content="#111111">
 </head>
 <body>
-    <div class="container">
-        <div class="text">
-            <h1>Under construction :(</h1>
+    <div class="everything">
+    <div class="first">
+    <header id="header">
+        <a href="#" class="logo">Gute Nacht</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <h2 id="text"><span id="developer">Developer</span><br>Gute Nacht</h2>
+    </section>
+</div>
+    <div class="projects" id="projects">
+        <h2 class="projects-title">Top Projects</h2>
+    </div>
+    <div class="projects">
+        <div class="project">
+          <img class="crown" src="img/crown.png">
+          <h3 class="project-title">Nox Builder</h3>
+          <p class="project-description">Hypixel Skyblock SSID logger generator Discord Bot all controlled by 1 Express.js app handled by MySQL. </p>
+          <div class="project-button">
+            <button onclick="redirect1()"><img class="github" src="img/github.png"> View on GitHub</button>
+          </div>
+        </div>
+        <div class="project">
+          <h3 class="project-title">RAT Builder Discord Bot</h3>
+          <p class="project-description">A bot which automatically builds rats for your Discord server. Uses webhooks and is obfuscated by Skidfuscator</p>
+          <div class="project-button">
+            <button onclick="redirect2()"><img class="github" src="img/github.png"> View on GitHub</button>
+          </div>
+        </div>
+        <div class="project">
+          <h3 class="project-title">Native Obfuscator GUI</h3>
+          <p class="project-description">Native Obfuscator by radioegor146's usage made easy. Uses Python to automate the long process of using a Native Obfuscator.</p>
+          <div class="project-button">
+            <button onclick="redirect3()"><img class="github" src="img/github.png"> View on GitHub</button>
+          </div>
         </div>
     </div>
-
-<script src="main_script.js"></script>
+    <script src="script.js"></script>
 </body>
+</html>
