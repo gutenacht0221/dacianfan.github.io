@@ -15,7 +15,7 @@ body {
 }
 
 .everything {
-    background: linear-gradient(120deg, #094b65, #fff);
+    background: linear-gradient(rgb(7,60,81), rgb(24,26,27));
 }
 
 #header {
@@ -31,7 +31,7 @@ body {
 }
 
 #header .logo {
-    color: #222222;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 2rem;
     text-decoration: none;
@@ -58,16 +58,16 @@ body {
 #header ul li a {
     text-decoration: none;
     padding: 6px 15px;
-    color: #094b65;
+    color: rgb(126, 193, 246);
     border-radius: 20px;
     transition: all 0.3s ease;
 }
 
 #header ul li a:hover {
-    background: rgba(20, 110, 255, 0.5);
+    background: rgb(126, 193, 246);
     color: #fff;
-    border: 1px solid rgba(20, 110, 255, 0.5);
-    box-shadow: 0 0 10px 5px rgba(20, 110, 255, 0.5);
+    border: 1px solid rgb(126, 193, 246);
+    box-shadow: 0 0 10px 5px rgb(126, 193, 246);
 }
 
 #header {
@@ -90,7 +90,7 @@ section {
 
 section #text {
     position: absolute;
-    color: #094b88;
+    color: rgb(126, 193, 246);
     font-size: 10vw;
     text-align: center;
     line-height: .55em;
@@ -150,13 +150,14 @@ section #text span {
 .project {
     width: 300px;
     height: 300px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
+    background-color: #191919;
+    border: 1px solid #000000;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
     transform: translateY(-800px);
     box-shadow: 0 20px 15px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
   }
   
   .project-title {
@@ -211,7 +212,7 @@ section #text span {
 }
 
 .project-button button {
-    background: #094b65;
+    background: rgb(7, 60, 81);
     color: #fff;
     padding: 10px 20px;
     border: none;
