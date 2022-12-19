@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Features */
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li,
+a,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3391ff;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.contain {
+    /* make a box to contain all items */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    padding: 0px 100px;
+}
+
+.icons {
+    width: 70px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
+}
+
+.nav_links {
+    list-style: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(86, 222, 255);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.cts {
+    padding: 9px 25px;
+    background-image: linear-gradient(135deg, rgb(19, 40, 137) 0%, rgb(94, 60, 130) 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px
+}
+
+.cts:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+    transform: scale(1.1, 1.1);
+}
+
+.body-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .box {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #131313;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.container .box:before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container .box .icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #131313;
+    background: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.container .box:nth-child(1) .icon {
+    box-shadow: 0 0 0 0 #9214ed;
+    background: #9214ed;
+}
+
+.container .box:nth-child(1):hover .icon {
+    box-shadow: 0 0 0 400px #9214ed;
+}
+
+.container .box:nth-child(2) .icon {
+    box-shadow: 0 0 0 0 #ac1ee9;
+    background: #ac1ee9;
+}
+
+.container .box:nth-child(2):hover .icon {
+    box-shadow: 0 0 0 400px #ac1ee9;
+}
+
+.container .box:nth-child(3) .icon {
+    box-shadow: 0 0 0 0 #b135e6;
+    background: #b135e6;
+}
+
+.container .box:nth-child(3):hover .icon {
+    box-shadow: 0 0 0 400px #b135e6;
+}
+
+.container .box .content {
+    position: relative;
+    transition: 0.5s;
+}
+
+.container .box:hover .content {
+    color: #fff;
+}
+
+.container .box .content h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.container .box .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.features {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #131313;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logo-hyperlink {
+    transition: all 0.3s ease 0s;
+}
+
+.logo-hyperlink:hover {
+    animation-name: spin;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transform:scale(1.1,1.1);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    height: 100%;
+}
