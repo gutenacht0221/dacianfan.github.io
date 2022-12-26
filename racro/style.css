@@ -5,7 +5,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 li,
@@ -124,10 +123,10 @@ button {
     border-radius: 20px;
     margin: 20px;
     box-sizing: border-box;
-    overflow: hidden;
     text-align: center;
     color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    overflow: hidden;
 }
 
 .container .box:before {
@@ -263,4 +262,27 @@ button {
     width: 100%;
     pointer-events: none;
     height: 100%;
+}
+
+.description .racro h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description .racro p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description .racro p, h3 {
+    font-family: 'Poppins', sans-serif;
 }
